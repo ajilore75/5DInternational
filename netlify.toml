@@ -1,0 +1,5 @@
+# Static site: the page is already built, so there is no build step.
+# This overrides the "make all" build command set in the Netlify UI.
+[build]
+  publish = "public"
+  command = "echo 'No build step required'"
